@@ -1,5 +1,5 @@
 A simple Zapco Section wise product list app in jetpack compose with MVVM architecture.
+![Screenshot_20240908_155600](https://github.com/user-attachments/assets/1bb2ee9c-8ae5-44e4-b628-779091b137a5)
 
-<img width="238" alt="Screenshot 2024-09-07 at 4 27 36 PM" src="https://github.com/user-attachments/assets/5dcc08d4-ea4f-4786-8626-58971b4e3f47">
 
-<img width="235" alt="Screenshot 2024-09-07 at 4 27 49 PM" src="https://github.com/user-attachments/assets/43fa5c09-6758-4685-9b01-f1b8d85fdde4">
+![Screenshot_20240908_155620](https://github.com/user-attachments/assets/95153dda-f5c7-49e4-811f-f590e1426226)
