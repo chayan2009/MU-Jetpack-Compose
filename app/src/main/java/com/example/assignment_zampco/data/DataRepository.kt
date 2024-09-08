@@ -6,7 +6,7 @@ import javax.inject.Inject
 class DataRepository @Inject constructor(
     private val apiService: ApiService
 ) {
-    suspend fun getUiBlocks(): List<ProductItem> {
+    suspend fun getProductList(): List<ProductItem> {
         return apiService.getData()
     }
 }

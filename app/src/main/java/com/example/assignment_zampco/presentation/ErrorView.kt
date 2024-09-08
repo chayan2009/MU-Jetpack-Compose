@@ -20,6 +20,7 @@ fun ErrorView(errorMessage: String?, onRetry: () -> Unit) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
+
         Text(text = errorMessage ?: "error", color = Color.Red)
         Spacer(modifier = Modifier.height(8.dp))
         Button(onClick = onRetry) {

@@ -28,11 +28,11 @@ class ProductViewModel @Inject constructor(
         fetchProductItem()
     }
 
-    private fun fetchProductItem() {
+    fun fetchProductItem() {
         viewModelScope.launch {
             _isLoading.value = true
             try {
-                _productItem.value = repository.getUiBlocks()
+                _productItem.value = repository.getProductList()
             } catch (e: Exception) {
                 _errorMessage.value = "Failed to load data"
             } finally {
